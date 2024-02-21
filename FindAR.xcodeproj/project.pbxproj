@@ -1,0 +1,624 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		145C38AC2B806EEC00B66270 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C38AB2B806EEC00B66270 /* AppDelegate.swift */; };
+		145C38AE2B806EEC00B66270 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C38AD2B806EEC00B66270 /* SceneDelegate.swift */; };
+		145C38B02B806EEC00B66270 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C38AF2B806EEC00B66270 /* ViewController.swift */; };
+		145C38B32B806EEC00B66270 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145C38B12B806EEC00B66270 /* Main.storyboard */; };
+		145C38B52B806EEE00B66270 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 145C38B42B806EEE00B66270 /* Assets.xcassets */; };
+		145C38B82B806EEE00B66270 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 145C38B62B806EEE00B66270 /* LaunchScreen.storyboard */; };
+		145C38C32B806EEE00B66270 /* FindARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C38C22B806EEE00B66270 /* FindARTests.swift */; };
+		145C38CD2B806EEE00B66270 /* FindARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C38CC2B806EEE00B66270 /* FindARUITests.swift */; };
+		145C38CF2B806EEE00B66270 /* FindARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C38CE2B806EEE00B66270 /* FindARUITestsLaunchTests.swift */; };
+		145C38E82B80A3E700B66270 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 145C38E72B80A3E700B66270 /* sound.mp3 */; };
+		14B754902B82BF7500CE3713 /* coreml.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 14B7548F2B82BF7500CE3713 /* coreml.mlmodel */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		145C38BF2B806EEE00B66270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 145C38A02B806EEC00B66270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145C38A72B806EEC00B66270;
+			remoteInfo = FindAR;
+		};
+		145C38C92B806EEE00B66270 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 145C38A02B806EEC00B66270 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 145C38A72B806EEC00B66270;
+			remoteInfo = FindAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		145C38A82B806EEC00B66270 /* FindAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		145C38AB2B806EEC00B66270 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		145C38AD2B806EEC00B66270 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		145C38AF2B806EEC00B66270 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		145C38B22B806EEC00B66270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		145C38B42B806EEE00B66270 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		145C38B72B806EEE00B66270 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		145C38B92B806EEE00B66270 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		145C38BE2B806EEE00B66270 /* FindARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145C38C22B806EEE00B66270 /* FindARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindARTests.swift; sourceTree = "<group>"; };
+		145C38C82B806EEE00B66270 /* FindARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		145C38CC2B806EEE00B66270 /* FindARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindARUITests.swift; sourceTree = "<group>"; };
+		145C38CE2B806EEE00B66270 /* FindARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindARUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		145C38E72B80A3E700B66270 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
+		14B7548F2B82BF7500CE3713 /* coreml.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = coreml.mlmodel; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		145C38A52B806EEC00B66270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145C38BB2B806EEE00B66270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145C38C52B806EEE00B66270 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		145C389F2B806EEC00B66270 = {
+			isa = PBXGroup;
+			children = (
+				14B7548F2B82BF7500CE3713 /* coreml.mlmodel */,
+				145C38E72B80A3E700B66270 /* sound.mp3 */,
+				145C38AA2B806EEC00B66270 /* FindAR */,
+				145C38C12B806EEE00B66270 /* FindARTests */,
+				145C38CB2B806EEE00B66270 /* FindARUITests */,
+				145C38A92B806EEC00B66270 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		145C38A92B806EEC00B66270 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				145C38A82B806EEC00B66270 /* FindAR.app */,
+				145C38BE2B806EEE00B66270 /* FindARTests.xctest */,
+				145C38C82B806EEE00B66270 /* FindARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		145C38AA2B806EEC00B66270 /* FindAR */ = {
+			isa = PBXGroup;
+			children = (
+				145C38AB2B806EEC00B66270 /* AppDelegate.swift */,
+				145C38AD2B806EEC00B66270 /* SceneDelegate.swift */,
+				145C38AF2B806EEC00B66270 /* ViewController.swift */,
+				145C38B12B806EEC00B66270 /* Main.storyboard */,
+				145C38B42B806EEE00B66270 /* Assets.xcassets */,
+				145C38B62B806EEE00B66270 /* LaunchScreen.storyboard */,
+				145C38B92B806EEE00B66270 /* Info.plist */,
+			);
+			path = FindAR;
+			sourceTree = "<group>";
+		};
+		145C38C12B806EEE00B66270 /* FindARTests */ = {
+			isa = PBXGroup;
+			children = (
+				145C38C22B806EEE00B66270 /* FindARTests.swift */,
+			);
+			path = FindARTests;
+			sourceTree = "<group>";
+		};
+		145C38CB2B806EEE00B66270 /* FindARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				145C38CC2B806EEE00B66270 /* FindARUITests.swift */,
+				145C38CE2B806EEE00B66270 /* FindARUITestsLaunchTests.swift */,
+			);
+			path = FindARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		145C38A72B806EEC00B66270 /* FindAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145C38D22B806EEE00B66270 /* Build configuration list for PBXNativeTarget "FindAR" */;
+			buildPhases = (
+				145C38A42B806EEC00B66270 /* Sources */,
+				145C38A52B806EEC00B66270 /* Frameworks */,
+				145C38A62B806EEC00B66270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindAR;
+			productName = FindAR;
+			productReference = 145C38A82B806EEC00B66270 /* FindAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		145C38BD2B806EEE00B66270 /* FindARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145C38D52B806EEE00B66270 /* Build configuration list for PBXNativeTarget "FindARTests" */;
+			buildPhases = (
+				145C38BA2B806EEE00B66270 /* Sources */,
+				145C38BB2B806EEE00B66270 /* Frameworks */,
+				145C38BC2B806EEE00B66270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				145C38C02B806EEE00B66270 /* PBXTargetDependency */,
+			);
+			name = FindARTests;
+			productName = FindARTests;
+			productReference = 145C38BE2B806EEE00B66270 /* FindARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		145C38C72B806EEE00B66270 /* FindARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 145C38D82B806EEE00B66270 /* Build configuration list for PBXNativeTarget "FindARUITests" */;
+			buildPhases = (
+				145C38C42B806EEE00B66270 /* Sources */,
+				145C38C52B806EEE00B66270 /* Frameworks */,
+				145C38C62B806EEE00B66270 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				145C38CA2B806EEE00B66270 /* PBXTargetDependency */,
+			);
+			name = FindARUITests;
+			productName = FindARUITests;
+			productReference = 145C38C82B806EEE00B66270 /* FindARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		145C38A02B806EEC00B66270 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					145C38A72B806EEC00B66270 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					145C38BD2B806EEE00B66270 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 145C38A72B806EEC00B66270;
+					};
+					145C38C72B806EEE00B66270 = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 145C38A72B806EEC00B66270;
+					};
+				};
+			};
+			buildConfigurationList = 145C38A32B806EEC00B66270 /* Build configuration list for PBXProject "FindAR" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 145C389F2B806EEC00B66270;
+			productRefGroup = 145C38A92B806EEC00B66270 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				145C38A72B806EEC00B66270 /* FindAR */,
+				145C38BD2B806EEE00B66270 /* FindARTests */,
+				145C38C72B806EEE00B66270 /* FindARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		145C38A62B806EEC00B66270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145C38B82B806EEE00B66270 /* LaunchScreen.storyboard in Resources */,
+				145C38B52B806EEE00B66270 /* Assets.xcassets in Resources */,
+				145C38B32B806EEC00B66270 /* Main.storyboard in Resources */,
+				145C38E82B80A3E700B66270 /* sound.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145C38BC2B806EEE00B66270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145C38C62B806EEE00B66270 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		145C38A42B806EEC00B66270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14B754902B82BF7500CE3713 /* coreml.mlmodel in Sources */,
+				145C38B02B806EEC00B66270 /* ViewController.swift in Sources */,
+				145C38AC2B806EEC00B66270 /* AppDelegate.swift in Sources */,
+				145C38AE2B806EEC00B66270 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145C38BA2B806EEE00B66270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145C38C32B806EEE00B66270 /* FindARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		145C38C42B806EEE00B66270 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				145C38CF2B806EEE00B66270 /* FindARUITestsLaunchTests.swift in Sources */,
+				145C38CD2B806EEE00B66270 /* FindARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		145C38C02B806EEE00B66270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 145C38A72B806EEC00B66270 /* FindAR */;
+			targetProxy = 145C38BF2B806EEE00B66270 /* PBXContainerItemProxy */;
+		};
+		145C38CA2B806EEE00B66270 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 145C38A72B806EEC00B66270 /* FindAR */;
+			targetProxy = 145C38C92B806EEE00B66270 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		145C38B12B806EEC00B66270 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145C38B22B806EEC00B66270 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		145C38B62B806EEE00B66270 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				145C38B72B806EEE00B66270 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		145C38D02B806EEE00B66270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		145C38D12B806EEE00B66270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		145C38D32B806EEE00B66270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C2SU67V5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindAR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FindAR;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyushacharya.FindAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		145C38D42B806EEE00B66270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C2SU67V5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = FindAR/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = FindAR;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyushacharya.FindAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		145C38D62B806EEE00B66270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C2SU67V5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyushacharya.FindARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindAR";
+			};
+			name = Debug;
+		};
+		145C38D72B806EEE00B66270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C2SU67V5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyushacharya.FindARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindAR.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindAR";
+			};
+			name = Release;
+		};
+		145C38D92B806EEE00B66270 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C2SU67V5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyushacharya.FindARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindAR;
+			};
+			name = Debug;
+		};
+		145C38DA2B806EEE00B66270 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 2C2SU67V5H;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.piyushacharya.FindARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		145C38A32B806EEC00B66270 /* Build configuration list for PBXProject "FindAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145C38D02B806EEE00B66270 /* Debug */,
+				145C38D12B806EEE00B66270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145C38D22B806EEE00B66270 /* Build configuration list for PBXNativeTarget "FindAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145C38D32B806EEE00B66270 /* Debug */,
+				145C38D42B806EEE00B66270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145C38D52B806EEE00B66270 /* Build configuration list for PBXNativeTarget "FindARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145C38D62B806EEE00B66270 /* Debug */,
+				145C38D72B806EEE00B66270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		145C38D82B806EEE00B66270 /* Build configuration list for PBXNativeTarget "FindARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				145C38D92B806EEE00B66270 /* Debug */,
+				145C38DA2B806EEE00B66270 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 145C38A02B806EEC00B66270 /* Project object */;
+}
