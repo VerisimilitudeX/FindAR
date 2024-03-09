@@ -17,7 +17,7 @@
 		145C38CD2B806EEE00B66270 /* FindARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C38CC2B806EEE00B66270 /* FindARUITests.swift */; };
 		145C38CF2B806EEE00B66270 /* FindARUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 145C38CE2B806EEE00B66270 /* FindARUITestsLaunchTests.swift */; };
 		145C38E82B80A3E700B66270 /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 145C38E72B80A3E700B66270 /* sound.mp3 */; };
-		14B754902B82BF7500CE3713 /* coreml.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 14B7548F2B82BF7500CE3713 /* coreml.mlmodel */; };
+		D3224DEE2B9697DE00FEA425 /* coreml.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = D3224DED2B9697DE00FEA425 /* coreml.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,7 +52,7 @@
 		145C38CC2B806EEE00B66270 /* FindARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindARUITests.swift; sourceTree = "<group>"; };
 		145C38CE2B806EEE00B66270 /* FindARUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindARUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		145C38E72B80A3E700B66270 /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
-		14B7548F2B82BF7500CE3713 /* coreml.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = coreml.mlmodel; sourceTree = "<group>"; };
+		D3224DED2B9697DE00FEA425 /* coreml.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = coreml.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,7 +83,7 @@
 		145C389F2B806EEC00B66270 = {
 			isa = PBXGroup;
 			children = (
-				14B7548F2B82BF7500CE3713 /* coreml.mlmodel */,
+				D3224DED2B9697DE00FEA425 /* coreml.mlmodel */,
 				145C38E72B80A3E700B66270 /* sound.mp3 */,
 				145C38AA2B806EEC00B66270 /* FindAR */,
 				145C38C12B806EEE00B66270 /* FindARTests */,
@@ -265,7 +265,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				14B754902B82BF7500CE3713 /* coreml.mlmodel in Sources */,
+				D3224DEE2B9697DE00FEA425 /* coreml.mlmodel in Sources */,
 				145C38B02B806EEC00B66270 /* ViewController.swift in Sources */,
 				145C38AC2B806EEC00B66270 /* AppDelegate.swift in Sources */,
 				145C38AE2B806EEC00B66270 /* SceneDelegate.swift in Sources */,

@@ -12,7 +12,6 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
     var lastUpdateTime = Date()
     var lastDetectedObject: String?
     
-    // UILabel to display the name and confidence of the detected object
     let detectionLabel: UILabel = {
         let label = UILabel()
         label.textAlignment = .center
@@ -24,7 +23,6 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         return label
     }()
     
-    // Work item for updating the label
     var updateLabelWorkItem: DispatchWorkItem?
     
     override func viewDidLoad() {
@@ -39,7 +37,7 @@ class ViewController: UIViewController, AVCaptureVideoDataOutputSampleBufferDele
         session.sessionPreset = .high
         guard let captureDevice = AVCaptureDevice.default(for: .video),
               let input = try? AVCaptureDeviceInput(device: captureDevice) else {
-            fatalError("Unable to access camera.")
+            fatalError("Can't access camera")
         }
         session.addInput(input)
         let output = AVCaptureVideoDataOutput()
